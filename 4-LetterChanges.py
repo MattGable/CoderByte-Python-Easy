@@ -10,10 +10,7 @@ Replace every letter in the string with the letter following it in the alphabet
 #2-Capitalize each vowel.
 #Return - Return the finished string.
 
-#NOTE: Since this was CoderByte, I thought the rules were not to
-#use any imported modules, even built-in modules. So the solution is
-#verbose because of this, though there are probably much better ways
-#even with this limitation.
+#Definitely not the shortest solution...
 
 def letter_changes(str):
     #Bad name for a list!
