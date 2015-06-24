@@ -19,11 +19,11 @@ def letter_capitalize(string):
 
     for i in range(len(string)):
 
-        #capitalize the first letter--if it's a letter
+        #Capitalize the first letter--if it's a letter
         if i == 0 and string[0].isalpha():
             holder_string +=string[i].upper()
 
-        #Check for space 
+        #Check for space to th left of index[i] and capitalize
         elif string[i-1].isspace() and i > 0 and i < len(string):
             holder_string += string[i].upper()
           
