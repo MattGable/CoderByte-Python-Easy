@@ -15,7 +15,7 @@ The string will not be empty and will have at least one letter."
 #Return - Return wither the valid string or an error message. If there is an error,
 #simple_symbol simply returns the first one it encounters.
 #This script returns errors as strings rather that raise Exception("Error!"),
-#though jsut returning "False" is probably all that's needed on the site.
+#though just returning "False" is probably all that's needed on the site.
 
 def simple_symbol(string):
 
