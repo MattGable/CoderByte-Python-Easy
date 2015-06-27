@@ -12,10 +12,10 @@ The string will not be empty and will have at least one letter."
 #1-Iterate over the string and make sure all alpha chars have + on each side.
 #2- Also scan the string to make sure it only contains letters, +, and =.
 #3- Empty strings and strings with 0 letters are also false.
-#Return - Return wither the valid string or an error message. If there is an error,
+#Return either the valid string or an error message. If there is an error,
 #simple_symbol simply returns the first one it encounters.
-#This script returns errors as strings rather that raise Exception("Error!"),
-#though just returning "False" is probably all that's needed on the site.
+#This script returns errors as strings rather that raise Exception("Error!").
+
 
 def simple_symbol(string):
 
